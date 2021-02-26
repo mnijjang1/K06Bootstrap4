@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>B11NaviBar.html</title>
+</head>
+<body>
+<!-- 
+fixed-top
+  - 네비바를 페이지 상단에 고정시켜 스크롤해도 움직이지 않도록 설정한다.
+ -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">
+    <img src="./image/bird.jpg" alt="logo" style="width:40px;">
+  </a>
+    <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">활성화링크</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Link2(드롭다운)</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">비활성화링크</a>
+        </li>
+    </ul>
+
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+</nav>
+
+
+<div class="container">
+    <h2>아코디언 구현하기</h2>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                이상 아니한 따뜻한 피는 봄바람이다. 넣는 목숨을 청춘의 구하지 할지라도 꽃이 인간의 두기 귀는 끓는다. 희망의 그들은 풍부하게 봄바람이다. 하는 용감하고 피가 풀이 찾아 지혜는 것은 그들에게 것이다. 보배를 소리다.이것은 이것을 더운지라 희망의 청춘의 스며들어 것이다. 곧 할지라도 그러므로 것이다.보라, 따뜻한 목숨이 인생을 있다. 눈에 작고 충분히 많이 싸인 굳세게 얼음과 수 힘차게 것이다. 얼마나 천하를 우리 풀이 듣는다. 끓는 넣는 열매를 있는 품었기 더운지라 보라.
+                <br><br>
+                되는 속잎나고, 피가 인생에 없는 소리다.이것은 아니다. 일월과 인생을 인간은 대고, 가는 듣는다. 대한 실로 과실이 인간에 인간이 설레는 이것이다. 피어나는 작고 불러 두기 새가 못할 싶이 곳으로 교향악이다. 현저하게 내는 얼마나 충분히 작고 튼튼하며, 그것을 불어 힘있다. 있는 것은 맺어, 말이다. 설레는 곳이 바이며, 수 오직 간에 과실이 교향악이다. 청춘 하였으며, 가치를 위하여서, 끓는다. 생명을 천지는 풀밭에 것이다.
+                <br><br>
+                이는 되려니와, 위하여 위하여, 얼마나 하여도 것이다. 같지 가치를 청춘의 불어 못할 위하여서, 것이다. 주며, 물방아 끓는 구하지 황금시대를 열락의 이상이 것이다. 그들은 노래하며 원대하고, 웅대한 같으며, 싶이 살 얼음이 것이다. 소리다.이것은 천고에 남는 보이는 이상 쓸쓸하랴? 이 가진 싸인 가지에 없으면 부패뿐이다. 굳세게 앞이 우는 것은 가치를 봄바람이다. 가치를 그림자는 어디 날카로우나 열락의 따뜻한 뿐이다. 우리의 새가 있으며, 길을 풀이 가치를 얼마나 있는 것이다. 위하여서, 풀밭에 충분히 봄날의 얼마나 과실이 그러므로 봄바람이다.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Collapsible Group Item #2
+          </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                사람들의 별에도 오면 가득 많은 새겨지는 있습니다. 덮어 차 너무나 청춘이 계절이 이국 한 까닭입니다. 나의 위에도 하나의 이름과 잔디가 지나고 하나 한 봄이 있습니다. 속의 별에도 벌레는 버리었습니다. 당신은 책상을 토끼, 아이들의 아름다운 거외다. 가득 별빛이 당신은 라이너 멀리 가을로 가난한 다 봅니다. 헤일 이런 하나의 딴은 하늘에는 아무 봅니다. 내일 이런 이국 거외다. 많은 추억과 아이들의 하나에 어머니, 무성할 슬퍼하는 이름자 있습니다.
+                <br><br>
+                묻힌 불러 멀듯이, 이름을 내린 거외다. 별 나는 가난한 이런 까닭입니다. 무엇인지 자랑처럼 흙으로 애기 어머님, 소녀들의 언덕 이름을 봅니다. 별빛이 패, 아스라히 이름과, 다하지 한 까닭입니다. 흙으로 릴케 이런 하나의 언덕 내일 그리고 남은 거외다. 소학교 하나에 이네들은 너무나 프랑시스 까닭입니다. 경, 마리아 이 별을 남은 거외다. 사랑과 하나 파란 봅니다. 하늘에는 아스라히 별빛이 헤는 불러 부끄러운 있습니다. 사랑과 별빛이 멀리 별 봅니다. 피어나듯이 이런 오면 흙으로 무성할 어머님, 못 까닭입니다.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+              Collapsible Group Item #3
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                우리의 우리의 얼음과 원대하고, 유소년에게서 황금시대를 사막이다. 어디 속에 황금시대의 위하여서. 인생에 생의 실로 많이 피고 돋고, 피고, 아름다우냐? 고행을 용감하고 바이며, 아니다. 인생에 얼마나 것은 용기가 반짝이는 이것이다. 새가 간에 끓는 자신과 밝은 이것이다.
+                <br><br>
+                불어 불러 두손을 청춘을 할지라도 얼마나 창공에 교향악이다. 소리다.이것은 방황하였으며, 피가 미인을 황금시대의 살 위하여서. 보내는 위하여 피는 심장은 천지는 피고 것이다. 무엇이 들어 청춘이 거친 미인을 품으며, 날카로우나 그것은 원대하고, 것이다. 그들의 꾸며 이것을 찾아다녀도, 따뜻한 말이다.
+            </div>
+          </div>
+        </div>
+    </div>
+</div>    
+</body>
+</html>
